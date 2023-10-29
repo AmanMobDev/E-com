@@ -22,11 +22,9 @@ class RequestTimeOutException extends AppException {
   RequestTimeOutException() : super('request_time_out'.tr);
 }
 
-
 class ServerException extends AppException{
   ServerException([String? message]): super('Internal server error');
 }
-
 
 class FetchDataException extends AppException{
   FetchDataException([String? message]): super('Error while communication');

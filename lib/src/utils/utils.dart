@@ -1,7 +1,3 @@
-/*
- * Created by - Chetu India .
- * Description - Class for handling .
- */
 
 import 'package:flutter/foundation.dart';
 import 'package:fluttertoast/fluttertoast.dart';
